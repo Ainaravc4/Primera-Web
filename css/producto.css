@@ -1,0 +1,58 @@
+
+/*contenido*/
+article{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/*cabecera secundaria*/
+article .inicio{
+  align-self: center;
+  width: 20%;
+}
+article p{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+article h2{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/*checkbox*/
+
+form{
+  background-color: whitesmoke;
+  border-radius: 40px 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+form div{
+  margin-bottom: 2rem;
+}
+form div:hover{
+  color: #FF266D;
+}
+form div:first-child{
+  margin-top: 2rem;
+}
+form button{
+  background-color: #FF266D;
+  color:white ;
+  border-radius: 5px;
+  width: 10rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+form button:hover{
+  background-color: #CF0043;
+}
+
+iframe{
+  margin-top: 2rem;
+}
+
+  
